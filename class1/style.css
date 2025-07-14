@@ -1,0 +1,40 @@
+h1 {
+    color: cyan; 
+    background-color: grey;
+}
+
+p {
+    font-size: 20px;
+    color: black;
+}
+
+a {
+    color: blue;
+    text-decoration: none;
+    border: solid;
+    border-color: black;
+    display: block;
+    padding: 5px;
+    /* width: 100px; */
+    background-color: lightgrey;
+    text-align: center;
+}
+
+.main-article {
+    background-color: pink;
+    border: solid 19px purple;
+    padding: 20px;
+    margin: 20px;
+}
+
+.point1 {
+    color: white;
+}
+
+.point2 {
+    color: tomato;
+}
+
+#great {
+    color: green;
+}
