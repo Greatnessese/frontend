@@ -16,8 +16,9 @@ a {
     display: block;
     padding: 5px;
     /* width: 100px; */
-    background-color: lightgrey;
+    background-color: red;
     text-align: center;
+    border-radius: 30px;
 }
 
 .main-article {
@@ -25,6 +26,7 @@ a {
     border: solid 19px purple;
     padding: 20px;
     margin: 20px;
+    border-radius: 30px;
 }
 
 .point1 {
@@ -37,4 +39,30 @@ a {
 
 #great {
     color: green;
+}
+
+.main-goods {
+    background-color: rgb(17, 113, 2);
+    border: solid 19px purple;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 30px;
+}
+
+
+h3, #great, .main-goods {
+    background-color: rgb(175, 218, 31, 0.7);
+}
+
+
+body{
+    background-color: grey;
+}
+
+.relative{
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    border: solid;
+    background-color: blue;
 }
